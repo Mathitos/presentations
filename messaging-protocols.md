@@ -7,8 +7,8 @@ footer: " "
 # Protocolos de comunicação
 ### por Matheus Anzzulin
 ---
-## UDP
 <!-- _class: image-left -->
+## UDP
   *(User Datagram Protocol)*
 
   - Sem Ordem
@@ -29,6 +29,7 @@ footer: " "
 ![funny image](https://c.tenor.com/oTwrhPPOuP8AAAAM/safety-first-jake-peralta.gif)
 
 ---
+<!-- _class: image-left -->
 ## Web Socket
  - pode começar de ambos os lados
  - implementado em cima de tcp
