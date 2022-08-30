@@ -15,6 +15,9 @@ footer: " "
 
 ---
 ## TCP
+  *(Transmission Control Protocol)*
+
+  - three way handshake ( SYN,SYN-ACK,ACK )
 
 ---
 ## Web Socket
