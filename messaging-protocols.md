@@ -30,3 +30,4 @@ footer: " "
 
 ---
 ## Web Socket
+![websocket diagram](https://assets-global.website-files.com/5f3c19f18169b62a0d0bf387/60f278d188056a50c045f4bd_Architecture%20diagram%20for%20Websocket-02%20(1).jpg)
