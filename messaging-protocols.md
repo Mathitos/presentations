@@ -8,6 +8,7 @@ footer: " "
 ### por Matheus Anzzulin
 ---
 ### UDP
+<!-- _class: image-left -->
   *(User Datagram Protocol)*
 
   - Sem Ordem
@@ -18,6 +19,11 @@ footer: " "
   *(Transmission Control Protocol)*
 
   - three way handshake ( SYN,SYN-ACK,ACK )
+  - Garantia de entrega (at least once)
+  - Ordenado
+  - Sincronizado (Menos Perfomatico)
+
+
 
 ---
 ## Web Socket
