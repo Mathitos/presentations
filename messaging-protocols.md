@@ -5,7 +5,7 @@ theme: payfy-theme
 # Title
 ### por Matheus Anzzulin
 ---
-theme: gaia
+<!-- theme: default -->
 ---
 # Title
 ### por Matheus Anzzulin
