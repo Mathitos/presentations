@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: payfy-theme
-footer: ""
+footer: "a"
 ---
 # Title
 ### por Matheus Anzzulin
