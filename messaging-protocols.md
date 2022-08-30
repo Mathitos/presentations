@@ -17,6 +17,7 @@ footer: " "
 ![funny image](https://thumbs.gfycat.com/VibrantEmbellishedJaeger-max-1mb.gif)
 
 ---
+<!-- _class: image-right -->
 ## TCP
   *(Transmission Control Protocol)*
 
