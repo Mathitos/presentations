@@ -3,7 +3,7 @@ marp: true
 theme: payfy-theme
 footer: " "
 ---
-<!-- _class: first -->
+<!-- _class: lead -->
 # Protocolos de comunicação
 ### por Matheus Anzzulin
 ---
