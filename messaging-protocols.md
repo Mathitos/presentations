@@ -14,6 +14,8 @@ footer: " "
   - Sem Ordem
   - Sem garantia de entrega ( at most once )
 
+![alt text](http://url/to/img.png)
+
 ---
 ## TCP
   *(Transmission Control Protocol)*
