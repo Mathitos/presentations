@@ -14,7 +14,7 @@ footer: " "
   - Sem Ordem
   - Sem garantia de entrega ( at most once )
 
-![alt text][(https://media.glassdoor.com/sqll/6644004/payfy-squareLogo-1642164297090.png](https://thumbs.gfycat.com/VibrantEmbellishedJaeger-max-1mb.gif))
+![alt text](https://thumbs.gfycat.com/VibrantEmbellishedJaeger-max-1mb.gif)
 
 ---
 ## TCP
