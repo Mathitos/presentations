@@ -10,6 +10,9 @@ footer: " "
 ### UDP
   *(User Datagram Protocol)*
 
+  - Sem Ordem
+  - Sem garantia de entrega ( at most once )
+
 ---
 ## TCP
 
