@@ -41,3 +41,4 @@ footer: " "
 
 ## XMPP
 *(Extensible Messaging and Present Protocol)*
+  - implementado em cima de tcp
