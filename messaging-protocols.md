@@ -6,7 +6,6 @@ theme: payfy-theme
 ### por Matheus Anzzulin
 ---
 <!-- theme: default -->
----
 # Title
 ### por Matheus Anzzulin
 ---
