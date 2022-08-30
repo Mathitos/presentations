@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: payfy-theme
-paginate: true
+footer: '![image](https://example.com/image.jpg)'
 ---
 # Title
 ### por Matheus Anzzulin
