@@ -1,6 +1,7 @@
 ---
 marp: true
 theme: payfy-theme
+paginate: true
 ---
 # Title
 ### por Matheus Anzzulin
