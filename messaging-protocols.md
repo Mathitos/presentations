@@ -14,7 +14,7 @@ footer: " "
   - Sem Ordem
   - Sem garantia de entrega ( at most once )
 
-![alt text](https://thumbs.gfycat.com/VibrantEmbellishedJaeger-max-1mb.gif)
+![funny image](https://thumbs.gfycat.com/VibrantEmbellishedJaeger-max-1mb.gif)
 
 ---
 ## TCP
@@ -25,7 +25,7 @@ footer: " "
   - Ordenado
   - Sincronizado (Menos Perfomatico)
 
-
+![funny image](https://c.tenor.com/oTwrhPPOuP8AAAAC/safety-first-jake-peralta.gif)
 
 ---
 ## Web Socket
