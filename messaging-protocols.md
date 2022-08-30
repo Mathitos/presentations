@@ -8,7 +8,8 @@ footer: " "
 ### por Matheus Anzzulin
 ---
 ### UDP
-  *User Datagram Protocol*
+  *(User Datagram Protocol)*
+
 ---
 ## TCP
 
