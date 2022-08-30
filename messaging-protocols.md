@@ -26,7 +26,7 @@ footer: " "
   - Ordenado
   - Sincronizado (Menos Perfomatico)
 
-![funny image](https://c.tenor.com/oTwrhPPOuP8AAAAC/safety-first-jake-peralta.gif)
+![funny image](https://i.pinimg.com/originals/e6/a3/6f/e6a36fb5d48537cc2fd97faa909e13e8.gif)
 
 ---
 ## Web Socket
