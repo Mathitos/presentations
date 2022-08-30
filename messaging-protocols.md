@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: payfy-theme
-class: lead
 footer: " "
 ---
 <!-- class: lead -->
