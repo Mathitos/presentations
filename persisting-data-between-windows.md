@@ -7,4 +7,4 @@ footer: " "
 # Persistindo dados entre janelas no React
 ### por Matheus Anzzulin
 ---
-![code image](https://drive.google.com/file/d/1utlSMJ4R97jB475bRQ8zAKKwHTYimdnY/view?usp=sharing)
+![code image](https://drive.google.com/uc?id=1utlSMJ4R97jB475bRQ8zAKKwHTYimdnY)
