@@ -12,18 +12,15 @@ footer: " "
 Um Form simples para compartilhar dados
 
 ---
-## Syncronizar janelas usando o Local Storage
+## Sincronizar janelas usando o Local Storage
 ##### commit #334d633
-Para manter o estado salvo
-Devemos:
+Para manter o estado salvo, devemos:
 - salvar dados no local storage no evento de submit
 - limpar os dados no logout
 - buscar dados salvo na inicialização do componente
 
 ---
-## Syncronizar janelas usando o Local Storage
+## Sincronizar janelas usando o Local Storage
 ##### commit #43198b0
-Devemos:
-- salvar dados no local storage no evento de submit
-- limpar os dados no logout
-- buscar dados salvo na inicialização do componente
+para manter as janelas sincronizadas, devemos:
+- subscrever o app a eventos do localstorage
