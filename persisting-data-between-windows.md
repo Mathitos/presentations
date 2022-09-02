@@ -7,6 +7,11 @@ footer: " "
 # Persistindo dados entre janelas no React
 ### por Matheus Anzzulin
 ---
+
+## Repo com exeplo prático
+https://github.com/Mathitos/local-storage-exemple
+
+---
 ## Primeiro vamos começar criando um boilerplate
 ##### commit #23a4224
 Um Form simples para compartilhar dados
