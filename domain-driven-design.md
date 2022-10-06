@@ -13,6 +13,7 @@ footer: " "
 Apresentação inspirada na talk:
 [*ElixirConf 2020 - Japa Swadia - Domain-Driven Design with Elixir*](https://www.youtube.com/watch?v=fx3BmpzitUg)
 
+[*Real World Example with Elixir Protocol*](https://dev.to/edisonywh/real-world-example-with-elixir-protocol-57ec)
 ---
 # DDD
 
@@ -37,3 +38,14 @@ Sub Contextos -> Venda, Aluguel
 
 # Elixir
 ### DDD em Elixir
+
+- Contextos são modulos dedicados que expoem e agrupam funcionalidades relacionadas
+
+---
+
+## Exemplo de contextos definidos
+- [Lib Boundary](https://github.com/sasa1977/boundary)
+
+---
+
+# Behaviour Driven Development
