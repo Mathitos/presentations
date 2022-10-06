@@ -6,14 +6,17 @@ size: 4:3
 footer: " "
 ---
 <!-- _class: lead -->
-# Protocolos de comunicação
+# Domain Driven Design
 ### por Matheus Anzzulin
 ---
-## UDP
-  *(User Datagram Protocol)*
-
-  - Sem Ordem
-  - Sem garantia de entrega ( at most once )
-
+## Disclaimer
+   Apresentação inspirada na talk [*ElixirConf 2020 - Japa Swadia - Domain-Driven Design with Elixir*](https://www.youtube.com/watch?v=fx3BmpzitUg)
+---
+## What is
+  - Analise do software top down
+  - Foco no problema a ser resolvido e não na tecnologia
+  - Faz modelos de dados baseado no dominio do negócio e o software tem que se adaptar a ele.
 
 ---
+# DDD
+*(Oque é top down)*
