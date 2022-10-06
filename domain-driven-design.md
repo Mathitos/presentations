@@ -14,7 +14,9 @@ Apresentação inspirada na talk:
 [*ElixirConf 2020 - Japa Swadia - Domain-Driven Design with Elixir*](https://www.youtube.com/watch?v=fx3BmpzitUg)
 
 ---
-## What is
+# DDD
+
+### Oque é
   - Analise do software top down
   - Foco no problema a ser resolvido e não na tecnologia
   - Faz modelos de dados baseado no dominio do negócio e o software tem que se adaptar a ele.
