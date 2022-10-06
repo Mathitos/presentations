@@ -15,6 +15,5 @@ footer: " "
   - Sem Ordem
   - Sem garantia de entrega ( at most once )
 
-![funny image](https://thumbs.gfycat.com/VibrantEmbellishedJaeger-max-1mb.gif)
 
 ---
