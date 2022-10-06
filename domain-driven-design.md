@@ -24,3 +24,16 @@ Apresentação inspirada na talk:
 ---
 # DDD
 *(Oque é top down)*
+
+Contexto -> Loja de bicicleta
+
+Modelo -> Bicicleta, Pedido, Cliente, Vendedor
+
+Linguagem unica -> Ciclista, Peças
+
+Sub Contextos -> Venda, Aluguel
+
+---
+
+# Elixir
+### DDD em Elixir
