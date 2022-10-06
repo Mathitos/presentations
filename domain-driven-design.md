@@ -10,7 +10,9 @@ footer: " "
 ### por Matheus Anzzulin
 ---
 ## Disclaimer
-Apresentação inspirada na talk [*ElixirConf 2020 - Japa Swadia - Domain-Driven Design with Elixir*](https://www.youtube.com/watch?v=fx3BmpzitUg)
+Apresentação inspirada na talk:
+[*ElixirConf 2020 - Japa Swadia - Domain-Driven Design with Elixir*](https://www.youtube.com/watch?v=fx3BmpzitUg)
+
 ---
 ## What is
   - Analise do software top down
