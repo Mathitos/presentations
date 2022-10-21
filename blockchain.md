@@ -6,7 +6,7 @@ size: 4:3
 footer: " "
 ---
 <!-- _class: lead -->
-# Blockchain principios
+# Principios da Blockchain
 ### por Matheus Anzzulin
 ---
 
