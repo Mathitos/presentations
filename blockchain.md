@@ -10,39 +10,37 @@ footer: " "
 ### por Matheus Anzzulin
 ---
 
-# DDD
+# Blockchain Architecture
 
-### Oque é
-  - Analise do software top down
-  - Foco no problema a ser resolvido e não na tecnologia
-  - Faz modelos de dados baseado no dominio do negócio e o software tem que se adaptar a ele.
+### Blocos
+ - Dados
+ - Hash
+ - Hash do Bloco Anterior
 
 ---
-# DDD
-*(Oque é top down)*
-
-Contexto -> Loja de bicicleta
-
-Modelo -> Bicicleta, Pedido, Cliente, Vendedor
-
-Linguagem unica -> Ciclista, Peças
-
-Sub Contextos -> Venda, Aluguel
+# Proof of Work
+Facil de verificar a resposta, não tão rapido de calcular o resultado
 
 ---
 
-# Elixir
-### DDD em Elixir
+# Rede P2P
 
-- Contextos são modulos dedicados que expoem e agrupam funcionalidades relacionadas
-
-- Projetos em phoenix já vem com a ideia de contextos "out of the box"
+- todos podem entrar
+- cada computador é um nodo da rede
 
 ---
 
-## Exemplo de contextos definidos
-- [Lib Boundary](https://github.com/sasa1977/boundary)
+# Como hacker uma blockchain
+
+- alterar todos os blocos subsequentes
+- refazer o proof-of-work de todos os blocos alterados
+- ter controle de mais de 50% da rede
 
 ---
 
-# Behaviour Driven Development
+# Como Funciona o fluxo da Blockchain
+
+- Nodo requisita uma transação
+- Transação é enviada para outros nodos da rede
+- Nodos validam a transação
+- Assim que 50% ou mais dos nodos confirmam a transação o novo bloco é adicionado a blockchain
