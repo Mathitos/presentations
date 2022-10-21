@@ -41,6 +41,8 @@ Sub Contextos -> Venda, Aluguel
 
 - Contextos são modulos dedicados que expoem e agrupam funcionalidades relacionadas
 
+- Projetos em phoenix já vem com a ideia de contextos "out of the box"
+
 ---
 
 ## Exemplo de contextos definidos
