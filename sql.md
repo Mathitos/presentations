@@ -51,3 +51,9 @@ CREATE TABLE questions (
   PRIMARY KEY(id),
   FOREIGN KEY (attendee_id) REFERENCES attendees(id)
 );
+
+INSERT INTO attendees (name, is_present) VALUES ('Matheus Anzzulin', TRUE);
+INSERT INTO attendees (name, age, is_present) VALUES ('Anonimo', 20, TRUE);
+
+SELECT * FROM attendees;
+SELECT name FROM attendees;
