@@ -41,20 +41,21 @@ Tem outros focos que não a modelagem de dados focado no relacionamento entre es
 
 ---
 # ACID
+### **(Atomicidade, Consistencia, Isolação e Durabilidade)**
+São
 
-
 ---
 # ACID
-## Atomicity
+## Atomicidade
 ---
 # ACID
-## Consistency
+## Consistencia
 ---
 # ACID
-## Isolation
+## Isolação
 ---
 # ACID
-## Durability)
+## Durabilidade
 
 ---
 
