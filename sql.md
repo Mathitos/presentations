@@ -94,6 +94,8 @@ RIGHT JOIN questions ON attendees.id = questions.attendee_id;
 SELECT AVG(age) from attendees;
 SELECT AVG(is_present) from attendees;
 
+SELECT attendee_id, COUNT (id) FROM questions GROUP_BY attendee_id;
+
 SELECT attendees.name, COUNT (questions.id) FROM attendees
 LEFT JOIN questions ON attendees.id = questions.attendee_id
 GROUP_BY questions.attendee_id;
