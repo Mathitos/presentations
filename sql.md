@@ -34,7 +34,7 @@ CREATE TABLE attendees (
   age INT,
 );
 
-ALTER TABLE attendees ADD is_present BOOLEAN DEFAULT TRUE NOT NULL;
+ALTER TABLE attendees ADD is_present BOOLEAN DEFAULT 'true' NOT NULL;
 
 CREATE TABLE locations (
   id INT NOT NULL AUTO_INCREMENT,
@@ -46,43 +46,47 @@ DROP TABLE locations;
 CREATE TABLE questions (
   id INT NOT NULL AUTO_INCREMENT,
   question VARCHAR(255),
-  is_answered BOOLEAN DEFAULT FALSE,
+  is_answered BOOLEAN DEFAULT 'false',
   attendee_id INT NOT NULL,
   PRIMARY KEY(id),
   FOREIGN KEY (attendee_id) REFERENCES attendees(id)
 );
 
-INSERT INTO attendees (name, is_present) VALUES ('Matheus Anzzulin', TRUE);
-INSERT INTO attendees (name, age, is_present) VALUES ('Anonimo', 20, TRUE);
+INSERT INTO attendees (name, is_present) VALUES ('Matheus Anzzulin', 'true');
+INSERT INTO attendees (name, age, is_present) VALUES ('Anonimo', 20, 'true');
 
 INSERT INTO attendees (name, is_present) VALUES
-('Carolina Tavares', TRUE),
-('Lucas Brasil', TRUE),
-('Guilherme Schweizer', TRUE);
+('Carolina Tavares', 'true'),
+('Lucas Brasil', 'true'),
+('Guilherme Schweizer', 'true');
 
 SELECT * FROM attendees;
 SELECT name AS 'nome', age AS 'idade' FROM attendees;
 
-INSERT INTO attendees (name, is_present) VALUES ('Ariele Cassaroti', FALSE);
-SELECT * FROM attendees WHERE is_present = TRUE;
+INSERT INTO attendees (name, is_present) VALUES ('Ariele Cassaroti', 'false');
+SELECT * FROM attendees WHERE is_present;
 
 SELECT * from attendees WHERE name LIKE '%athe';
 
-INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como atualizar um registro?', false, 1);
+INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como atualizar um registro?', 'false', 1);
 
-UPDATE questions WHERE id = 1 SET is_answered = TRUE;
+UPDATE questions WHERE id = 1 SET is_answered = 'true';
 SELECT * FROM questions;
 
 SELECT * FROM attendees WHERE age IS NULL;
 UPDATE attendees WHERE age IS NULL SET age = 10;
 
-INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como usar a parte relacional do banco com SQL?', false, 1);
+INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como usar a parte relacional do banco com SQL?', 'false', 1);
 
 SELECT * FROM attendees
 INNER JOIN questions ON attendees.id = questions.attendee_id;
 
 SELECT * FROM attendees
 LEFT JOIN questions ON attendees.id = questions.attendee_id;
+
+SELECT * FROM attendees
+LEFT JOIN questions ON attendees.id = questions.attendee_id
+WHERE NOT questions.is_answered;
 
 SELECT * FROM attendees
 RIGHT JOIN questions ON attendees.id = questions.attendee_id;
