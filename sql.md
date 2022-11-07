@@ -42,11 +42,17 @@ Tem outros focos que não a modelagem de dados focado no relacionamento entre es
 ---
 # ACID
 ### **(Atomicidade, Consistencia, Isolação e Durabilidade)**
-São
+São Propriedades de uma transação de um banco de dados relacional que garantem a validade dos dados.
 
 ---
 # ACID
 ## Atomicidade
+Transações podem ser compostas de diversas declarações, aonde deve-se garantir que ou todas declarações são bem sucedidas ou todas falham.
+```
+Exemplo:
+Adiciona na tabela de compras uma compra na steam de 20 reais
+Subtrai o saldo atual do usuário na tabela de saldos
+```
 ---
 # ACID
 ## Consistencia
