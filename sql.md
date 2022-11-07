@@ -42,6 +42,20 @@ Tem outros focos que não a modelagem de dados focado no relacionamento entre es
 ---
 # ACID
 
+
+---
+# ACID
+## Atomicity
+---
+# ACID
+## Consistency
+---
+# ACID
+## Isolation
+---
+# ACID
+## Durability)
+
 ---
 
 # Structure Query Language
