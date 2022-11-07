@@ -70,9 +70,13 @@ salva no banco pois o novo estado viola uma regra do mesmo.
 ---
 # ACID
 ## Isolação
+Deve-se garantir que o estado final das transações seja o mesmo independente se as transações foram processadas simultaneas ou sequencialmente
+
+(Problemas de concorrencia)
 ---
 # ACID
 ## Durabilidade
+Deve-se garantir que uma vez que uma transação seja concluida com sucesso, o novo estado deve ser persistido.
 
 ---
 
@@ -81,6 +85,8 @@ salva no banco pois o novo estado viola uma regra do mesmo.
 ### Linguagem focada em CRUD de baco de dados
 
 ---
+
+# Structure Query Language
 
 CREATE DATABASE presentation;
 USE presentation;
@@ -91,7 +97,15 @@ CREATE TABLE attendees (
   age INT,
 );
 
+---
+# Structure Query Language
+
 ALTER TABLE attendees ADD is_present BOOLEAN DEFAULT 'true' NOT NULL;
+
+
+---
+# Structure Query Language
+
 
 CREATE TABLE locations (
   id INT NOT NULL AUTO_INCREMENT,
@@ -99,6 +113,9 @@ CREATE TABLE locations (
   PRIMARY KEY(id)
 );
 DROP TABLE locations;
+
+---
+# Structure Query Language
 
 CREATE TABLE questions (
   id INT NOT NULL AUTO_INCREMENT,
@@ -109,6 +126,9 @@ CREATE TABLE questions (
   FOREIGN KEY (attendee_id) REFERENCES attendees(id)
 );
 
+---
+# Structure Query Language
+
 INSERT INTO attendees (name, is_present) VALUES ('Matheus Anzzulin', 'true');
 INSERT INTO attendees (name, age, is_present) VALUES ('Anonimo', 20, 'true');
 
@@ -117,29 +137,62 @@ INSERT INTO attendees (name, is_present) VALUES
 ('Lucas Brasil', 'true'),
 ('Guilherme Schweizer', 'true');
 
+---
+# Structure Query Language
+
 SELECT * FROM attendees;
 SELECT name AS 'nome', age AS 'idade' FROM attendees;
+
+
+---
+# Structure Query Language
+
 
 INSERT INTO attendees (name, is_present) VALUES ('Ariele Cassaroti', 'false');
 SELECT * FROM attendees WHERE is_present;
 
+
+---
+# Structure Query Language
+
 SELECT * from attendees WHERE name LIKE '%athe';
+
+
+---
+# Structure Query Language
 
 INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como atualizar um registro?', 'false', 1);
 
 UPDATE questions WHERE id = 1 SET is_answered = 'true';
 SELECT * FROM questions;
 
+
+---
+# Structure Query Language
+
+
 SELECT * FROM attendees WHERE age IS NULL;
 UPDATE attendees WHERE age IS NULL SET age = 10;
+
+---
+# Structure Query Language
 
 INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como usar a parte relacional do banco com SQL?', 'false', 1);
 
 SELECT * FROM attendees
 INNER JOIN questions ON attendees.id = questions.attendee_id;
 
+---
+# Structure Query Language
+
+
 SELECT * FROM attendees
 LEFT JOIN questions ON attendees.id = questions.attendee_id;
+
+
+---
+# Structure Query Language
+
 
 SELECT * FROM attendees
 LEFT JOIN questions ON attendees.id = questions.attendee_id
@@ -147,6 +200,13 @@ WHERE NOT questions.is_answered;
 
 SELECT * FROM attendees
 RIGHT JOIN questions ON attendees.id = questions.attendee_id;
+
+SELECT * FROM attendees
+INNER JOIN questions ON attendees.id = questions.attendee_id;
+
+---
+# Structure Query Language
+
 
 SELECT AVG(age) from attendees;
 SELECT AVG(is_present) from attendees;
