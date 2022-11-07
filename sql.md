@@ -76,6 +76,8 @@ SELECT * FROM questions;
 SELECT * FROM attendees WHERE age IS NULL;
 UPDATE attendees WHERE age IS NULL SET age = 10;
 
+INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como usar a parte relacional do banco com SQL?', false, 1);
+
 SELECT * FROM attendees
 INNER JOIN questions ON attendees.id = questions.attendee_id;
 
