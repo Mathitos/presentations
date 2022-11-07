@@ -55,5 +55,10 @@ CREATE TABLE questions (
 INSERT INTO attendees (name, is_present) VALUES ('Matheus Anzzulin', TRUE);
 INSERT INTO attendees (name, age, is_present) VALUES ('Anonimo', 20, TRUE);
 
+INSERT INTO attendees (name, is_present) VALUES
+('Carolina Tavares', TRUE),
+('Lucas Brasil', TRUE),
+('Guilherme Schweizer', TRUE);
+
 SELECT * FROM attendees;
-SELECT name FROM attendees;
+SELECT name AS 'nome', age AS 'idade' FROM attendees;
