@@ -56,7 +56,7 @@ Subtrai o saldo atual do usuário na tabela de saldos
 ---
 <style scoped>
 pre {
-  font-size: 48%;
+  font-size: 2rem;
 }
 </style>
 # ACID
