@@ -60,8 +60,10 @@ Transações só podem ser bem sucedidas se levarem o bando de dados de um estad
 ```
 Exemplo:
 Banco de dados é modelado para que o saldo de um usuário nunca deve ser negativo.
-Um transação de compra de 10 reais para um usuário com saldo de 20 reais é bem sucedida e salva no banco.
-Um transação de compra de 20 reais para um usuário com saldo de 10 reais não é bem sucedida e logo não é salva no banco pois o novo estado viola uma regra do mesmo.
+Um transação de compra de 10 reais ,
+para um usuário com saldo de 20 reais é bem sucedida e salva no banco.
+Um transação de compra de 20 reais,
+ para um usuário com saldo de 10 reais não é bem sucedida e logo não é salva no banco pois o novo estado viola uma regra do mesmo.
 ```
 
 ---
