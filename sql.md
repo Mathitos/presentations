@@ -156,7 +156,7 @@ SELECT * FROM attendees WHERE is_present;
 ---
 # Structure Query Language
 
-SELECT * from attendees WHERE name LIKE '%athe';
+SELECT * from attendees WHERE name LIKE '%athe%';
 
 
 ---
