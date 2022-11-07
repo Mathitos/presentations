@@ -31,6 +31,17 @@ Cada tabela tem colunas com nomes, e linhas com registros.
 
 # Banco de dados não relacional
 
+Tem outros focos que não a modelagem de dados focado no relacionamento entre esquemas.
+```
+{
+  "1": {"nome": "Matheus", "darkmode": true},
+  "2": {"nome": "Carolina", "notifications": false}
+}
+```
+
+---
+# ACID
+
 ---
 
 # Structure Query Language
