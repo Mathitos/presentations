@@ -78,3 +78,9 @@ UPDATE attendees WHERE age IS NULL SET age = 10;
 
 SELECT * FROM attendees
 INNER JOIN questions ON attendees.id = questions.attendee_id;
+
+SELECT * FROM attendees
+LEFT JOIN questions ON attendees.id = questions.attendee_id;
+
+SELECT * FROM attendees
+RIGHT JOIN questions ON attendees.id = questions.attendee_id;
