@@ -70,5 +70,7 @@ SELECT * FROM attendees WHERE is_present = TRUE;
 INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como atualizar um registro?', false, 1);
 
 UPDATE questions WHERE id = 1 SET is_answered = TRUE;
-
 SELECT * FROM questions;
+
+SELECT * FROM attendees WHERE age IS NULL;
+UPDATE attendees WHERE age IS NULL SET age = 10;
