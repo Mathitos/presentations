@@ -62,3 +62,13 @@ INSERT INTO attendees (name, is_present) VALUES
 
 SELECT * FROM attendees;
 SELECT name AS 'nome', age AS 'idade' FROM attendees;
+
+INSERT INTO attendees (name, is_present) VALUES ('Ariele Cassaroti', FALSE);
+
+SELECT * FROM attendees WHERE is_present = TRUE;
+
+INSERT INTO questions (question, is_answered, attendee_id) VALUES ('como atualizar um registro?', false, 1);
+
+UPDATE questions WHERE id = 1 SET is_answered = TRUE;
+
+SELECT * FROM questions;
