@@ -54,6 +54,11 @@ Adiciona na tabela de compras uma compra na steam de 20 reais
 Subtrai o saldo atual do usuário na tabela de saldos
 ```
 ---
+<style scoped>
+pre {
+  font-size: 48%;
+}
+</style>
 # ACID
 ## Consistencia
 Transações só podem ser bem sucedidas se levarem o bando de dados de um estado consistente a outro. Isso que dizer que só são salvas transações que respeitem todas as regras definidas no banco.
