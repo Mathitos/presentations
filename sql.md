@@ -6,7 +6,7 @@ size: 4:3
 footer: " "
 ---
 <!-- _class: lead -->
-# Resumo Banco de dados
+# Resumo Banco de Dados
 ### por Matheus Anzzulin
 ---
 # Banco de dados Relacional
