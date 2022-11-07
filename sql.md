@@ -9,6 +9,9 @@ footer: " "
 # Resumo Banco de dados
 ### por Matheus Anzzulin
 ---
+<!--
+footer: "Resumo Banco de dados"
+ -->
 
 # Banco de dados Relacional
 É um banco de dados modelado para expressar e reconhecer conexões entre registros.
