@@ -56,6 +56,15 @@ Subtrai o saldo atual do usuário na tabela de saldos
 ---
 # ACID
 ## Consistencia
+Transações só podem ser bem sucedidas se levarem o bando de dados de um estado consistente a outro. Isso que dizer que só são salvas transações que respeitem todas as regras definidas no banco.
+
+```
+Exemplo:
+Banco de dados é modelado para que o saldo de um usuário nunca deve ser negativo.
+Um transação de compra de 10 reais para um usuário com saldo de 20 reais é bem sucedida e salva no banco.
+Um transação de compra de 20 reais para um usuário com saldo de 10 reais não é bem sucedida e logo não é salva no banco pois o novo estado viola uma regra do mesmo.
+```
+
 ---
 # ACID
 ## Isolação
