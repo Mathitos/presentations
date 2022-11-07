@@ -20,12 +20,10 @@ Cada tabela tem colunas com nomes, e linhas com registros.
 | 1 | Matheus | Porto Alegre|
 | 2 | Carolina | Pelotas |
 
-| Id | Login | UserId |
+| Id | Github | UserId |
 | ---| --- | ---|
 | 1 | tavarescarolina | 2|
 | 2 | Mathitos | 1|
-
-
 
 ---
 
