@@ -73,6 +73,7 @@ salva no banco pois o novo estado viola uma regra do mesmo.
 Deve-se garantir que o estado final das transações seja o mesmo independente se as transações foram processadas simultaneas ou sequencialmente
 
 (Problemas de concorrencia)
+
 ---
 # ACID
 ## Durabilidade
