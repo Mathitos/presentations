@@ -90,3 +90,10 @@ WHERE NOT questions.is_answered;
 
 SELECT * FROM attendees
 RIGHT JOIN questions ON attendees.id = questions.attendee_id;
+
+SELECT AVG(age) from attendees;
+SELECT AVG(is_present) from attendees;
+
+SELECT attendees.name, COUNT (questions.id) FROM attendees
+LEFT JOIN questions ON attendees.id = questions.attendee_id
+GROUP_BY questions.attendee_id;
