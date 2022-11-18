@@ -18,3 +18,5 @@ footer: " "
 # Problema
 
 - Comunicação Síncrona
+- Necessidade de sistemas distribuidos
+- Não bloquear sistemas chaves com fluxos complexos
