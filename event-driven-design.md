@@ -8,4 +8,13 @@ footer: " "
 <!-- _class: lead -->
 # Event Driven Design
 ### por Matheus Anzzulin
+
 ---
+# Pontos Chave
+- Design Pattern arquitetural
+- Comunicação Assíncrona
+
+---
+# Problema
+
+- Comunicação Síncrona
