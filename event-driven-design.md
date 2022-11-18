@@ -26,10 +26,14 @@ footer: " "
 
 Publishers
 &darr;
+
 Event Bus
 &darr;
+
 Broker
 &darr;
+
 Broadcast
 &darr;
+
 Consumers
