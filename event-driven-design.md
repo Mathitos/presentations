@@ -40,4 +40,9 @@ Consumers
 
 ---
 # Exemplo (Uber)
-![iamgem de exemplo arquitetura do uber](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201120210648/Uber-System-Design-High-Level-Architecture.png)
+![imagem de exemplo arquitetura do uber](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201120210648/Uber-System-Design-High-Level-Architecture.png)
+
+---
+# Exemplo (Pagamentos com cartão)
+![imagem de exemplo arquitetura de pagamentos com cartão](
+https://marvel-b1-cdn.bc0a.com/f00000000017219/documents.trendmicro.com/images/tex/articles/cloud-pos.jpg)
