@@ -25,7 +25,7 @@ footer: " "
 # Como funciona
 
 Publishers
-\/
+&darr;
 Event Bus
 \/
 Broker
