@@ -27,6 +27,11 @@ footer {
   background-image: url("https://media.glassdoor.com/sqll/6644004/payfy-squareLogo-1642164297090.png");
   background-size: 100% 100%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   color: var(--orange-red);
   text-align: left;
@@ -55,6 +60,7 @@ li {
 section {
   background-color: var(--mint-cream);
   padding: 2em;
+  font-size: 16px;
 }
 
 section img {
@@ -128,4 +134,53 @@ section.lead h3 {
   font-size: 3em;
   color: var(--davys-grey);
   text-align: center;
+}
+
+table {
+  background: #2d333b;
+  border: 1px solid #444c56;
+  color: #adbac7;
+  border-radius: 0.4em;
+  overflow: hidden;
+  min-width: 20rem;
+}
+
+tr {
+  margin: 0.5em 1em;
+}
+
+th,
+td {
+  margin: 0.5em 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+pre {
+  display: block;
+  border: 1px solid #444c56;
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #2d333b;
+  border-radius: 6px;
+  word-wrap: normal;
+  margin-bottom: 16px;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
+}
+
+pre code,
+pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+  color: #adbac7;
 }
