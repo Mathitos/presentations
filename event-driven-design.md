@@ -37,3 +37,7 @@ Broadcast
 &darr;
 
 Consumers
+
+---
+# Exemplo (Uber)
+![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201120210648/Uber-System-Design-High-Level-Architecture.png)
