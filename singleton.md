@@ -26,23 +26,15 @@ Quanto uma parte do sistema deve ter apenas uma instancia disponivel para todos 
 https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-en.png?id=157509c5693a657ba465c7a9d58a7c25)
 
 ---
-
-# Como funciona
-
-Publishers
-&darr;
-
-Event Bus
-&darr;
-
-Broker
-&darr;
-
-Broadcast
-&darr;
-
-Consumers
+# Como utilizamos esse conceito em elixir
+Como elixir não é uma linguagem orientada a objetos, se quisermos ter um estado global que pode ser lido e modificado em diversas partes do sistema, temos algumas opções:
+- ETS (Erlang Term Storage)
+- Mensagens entre processos
+- Integração com sistemas externos
 
 ---
-# Exemplo (Uber)
-![imagem de exemplo arquitetura do uber](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201120210648/Uber-System-Design-High-Level-Architecture.png)
+# Agents em elixir
+Segundo o guia getting-started de elixir (https://elixir-lang.org/getting-started)
+```
+getting-started
+```
