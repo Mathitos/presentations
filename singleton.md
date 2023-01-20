@@ -10,11 +10,17 @@ footer: " "
 ### por Matheus Anzzulin
 
 ---
+# Oque é
+É uma pattern muito utilizada em linguagens de orientação a objeto, aonde restringimos a inicialização de uma classe para uma unica instancia. Geralmente utilizada quando precisamos de um estado global na aplicação para coordenar ações pelo sistema.
+
+---
 # Pontos Chave
 - Controle mais estrito sobre o estado do sistema
 - Inicialização unica
+- Estado Global (geralmente ruim)
 
 ---
+# Casos de uso
 Quanto uma parte do sistema deve ter apenas uma instancia disponivel para todos os clientes, por exemplo, um unico banco de dados compartilhado por diferentes partes do sistema.
 ![imagem de exemplo arquitetura de pagamentos com cartão](
 https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-en.png?id=157509c5693a657ba465c7a9d58a7c25)
