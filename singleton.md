@@ -36,5 +36,5 @@ Como elixir não é uma linguagem orientada a objetos, se quisermos ter um estad
 # Agents em elixir
 Segundo o guia getting-started de elixir (https://elixir-lang.org/getting-started)
 ```
-getting-started
+Agents are simple wrappers around state. If all you want from a process is to keep state, agents are a great fit.
 ```
