@@ -39,6 +39,7 @@ Segundo o guia getting-started de elixir (https://elixir-lang.org/getting-starte
 > Agents are simple wrappers around state. If all you want from a process is to keep state, agents are a great fit.
 
 ---
+# Exemplo
 ```
 defmodule KV.Bucket do
   use Agent
