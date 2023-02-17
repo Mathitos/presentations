@@ -21,3 +21,12 @@ apps/payfy/test/support/factory.ex
 
 
 ```
+
+```
+apps/adapters/test/adapters/swap/account_processor_test.exs
+
+user = PayfyFactory.insert!(:user, status: :activated)
+...
+
+user = PayfyFactory.insert!(:user, status: :created)
+```
