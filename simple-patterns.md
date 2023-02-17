@@ -15,3 +15,7 @@ Segundo o GOF (Group Of Four) o padrão Factory Method é: “Um padrão que def
 
 ---
 ### Exemplo:
+
+```
+
+```
