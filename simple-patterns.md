@@ -10,3 +10,5 @@ footer: " "
 ## (Design Patterns)
 ### por Matheus Anzzulin
 ---
+
+# Factory
