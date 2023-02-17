@@ -30,7 +30,6 @@ def build(:user) do
 
 ```
 
-
 ```
 apps/adapters/test/adapters/swap/account_processor_test.exs
 
