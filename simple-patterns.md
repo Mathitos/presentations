@@ -6,8 +6,7 @@ size: 4:3
 footer: " "
 ---
 <!-- _class: lead -->
-# Padrões de design de Código em elixir
-## (Design Patterns)
+# Padrões de design em elixir
 ### por Matheus Anzzulin
 ---
 
