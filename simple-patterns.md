@@ -6,6 +6,7 @@ size: 4:3
 footer: " "
 ---
 <!-- _class: lead -->
-# Persistindo dados entre janelas no React
+# Padrões de design de Código em elixir
+## (Design Patterns)
 ### por Matheus Anzzulin
 ---
